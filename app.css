@@ -229,7 +229,13 @@ text-align: center;
 
 .contact .card .icon {
     font-size: 4.5em;
+    color: #396EB0;
+    margin-left: 105px;
+    display: flex;
+    justify-content: revert;
+    align-items: flex-end;
 }
+
 
 .contact .card .info h2 {
     color: black;
@@ -241,26 +247,27 @@ text-align: center;
 
 .footer {
    display: flex;
-    background-color: #DADDFC;
+    background-color:#396EB0;
     justify-content: space-between;
     padding: 2em;
+    color: white;
 
 }
 
 .footer p {
-    color: black;
+    color: white;
     font-size: 1.3em;
     font-weight: 600;
 }
 .footer span {
-    color: #2E4C6D;
+    color: #fafafa;
     
 }
 
 .footer .icons a{
     font-size: 1.2em;
     padding: 0 12px 0 0;
-    color: #2E4C6D;
+    color: #fafafa;
 }
 
 
@@ -288,9 +295,7 @@ text-align: center;
         flex-direction: column;
         align-items: center;
     }
-    .cad .icon {
-        justify-content: center;
-    }
+  
     .about {
       display: flex;
       justify-content: space-around;
@@ -329,6 +334,14 @@ text-align: center;
         justify-content: center;
         text-align: center;
     }
+    .contact .card .icon {
+      font-size: 4.5em;
+      color: #396EB0;
+      margin-left: 70px;
+      display: flex;
+      justify-content: revert;
+      align-items: flex-end;
+  }
     
 .about {
     display: flex;
